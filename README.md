@@ -40,6 +40,25 @@ I build production mobile apps with **Flutter** and break web apps as a **penetr
 
 ---
 
+## 🔐 Penetration testing
+
+Alongside building apps, I break them. I focus on **web and mobile application security** — finding the path from a low‑severity bug to full compromise, and writing it up clearly.
+
+- **Web app pentesting** — hands‑on across the OWASP Top 10: injection, auth & session flaws, IDOR/access control, SSRF, XSS, prototype pollution, and business‑logic abuse. I keep an **escalation playbook** mapping common web vulnerabilities to their real‑world RCE / privilege‑escalation paths.
+- **Mobile security** — reverse engineering and runtime analysis of Android apps; built a dedicated **SSL‑Pinning lab** implementing six pinning layers and the techniques to bypass each.
+- **Bug bounty & reporting** — maintain a set of clear, reproducible **bug‑report templates** so findings land with impact, steps, and remediation.
+- **Own targets & labs** — I stand up my own vulnerable apps (a Django pentest target, a Java AES/JavaCard implementation) rather than only testing others', so the practice stays legal and controlled.
+
+**Toolbox:** Burp Suite · Metasploit · Nuclei · jwt_tool · enum4linux · polenum · SMBMap · linPEAS · Wordlists (SecLists) · Kali Linux · Tor
+
+> Security work lives on my dedicated account **[@MoAsh0x11](https://github.com/MoAsh0x11)** — highlights:
+> - **[Ethical Escalation Playbook](https://github.com/MoAsh0x11/The-Road-To-RCE)** — escalation methods for most web application vulnerabilities
+> - **[SSL‑Pinning Lab](https://github.com/MoAsh0x11/SSL-Pinning-Lab)** — Android app demonstrating & bypassing six SSL‑pinning implementations
+> - **[Bug Report Templates](https://github.com/MoAsh0x11/BugBounty-reports-templates)** — reusable, high‑signal vulnerability reports
+> - **[AES on JavaCard](https://github.com/MoAsh0x11/Implementing-AES-Using-JavaCard-Simulator)** — AES implemented on a JavaCard simulator
+
+---
+
 ## 🛠️ Tech stack
 
 **Mobile**
